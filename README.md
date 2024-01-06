@@ -7,26 +7,8 @@ The Loan Analysis Shiny App is a web application designed to assist users in ana
 ## Features
 
 - **Interactive Dashboard:** Visualize key loan metrics through interactive charts and graphs.
-- **Data Filters:** Apply filters to customize the data displayed based on criteria such as loan amount, interest rate, and term.
-- **Loan Portfolio Overview:** Quickly assess the overall health of the loan portfolio with summary statistics.
-- **Risk Assessment:** Identify potential risks by exploring default rates and payment behavior.
-- **Exportable Reports:** Download customized reports for further analysis or presentation.
+- **Data Filters:** Apply filters to customize the data displayed based on criteria such as product, relationship managers, and month.
+- **Loan Portfolio Overview:** Quickly assess the overall performance of the loan portfolio with summary statistics.
 
-## Getting Started
+To see the applictaion, you may [click here]([https://www.openai.com/](https://bryan-kanyingi.shinyapps.io/project/)https://bryan-kanyingi.shinyapps.io/project/) to view the various functionalities of the application
 
-### Prerequisites
-
-- R (version X.X.X)
-- Shiny package (install using `install.packages("shiny")`)
-- Other required R packages (listed in `app.R`)
-
-### Installation
-
-1. Clone this repository to your local machine.
-2. Open the R console or RStudio.
-3. Set the working directory to the location of the cloned repository.
-4. Run the `app.R` script.
-
-```R
-library(shiny)
-runApp("path/to/cloned/repo")
