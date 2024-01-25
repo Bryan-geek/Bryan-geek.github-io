@@ -3,7 +3,7 @@ library(shiny)
 library(shinythemes)
 
 # Load the loan data from the separate script
-source("data/loan_data.R")
+source("Data Scripts/loan_data.R")
 
 #Define UI for the first page
 ui_page1 <- fluidPage(
