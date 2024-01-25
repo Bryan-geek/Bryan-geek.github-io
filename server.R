@@ -4,8 +4,8 @@ library(dplyr)
 library(ggplot2)
 
 # Load the loan data and summary tables from the separate script
-source("data/loan_data.R")
-source("data/summary_tables.R")
+source("Data Scripts/loan_data.R")
+source("Data Scripts/summary_tables.R")
 
 server <- function(input, output) {
   # Define server logic for the first page
